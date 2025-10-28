@@ -1,0 +1,26 @@
+# Caches e Binários Python
+__pycache__/
+*.pyc
+
+# Checkpoints do Jupyter (arquivos temporários)
+.ipynb_checkpoints
+
+# Streamlit Cache e Configurações
+.streamlit/
+
+# Dados Grandes e Confidenciais
+.env
+secrets.json
+
+# Logs e Arquivos de Saída
+*.log
+
+# ----------------------------------------------------
+# Pastas de dados que não devem ir para o Git
+# (Remova o '#' se o dataset for muito grande e não for para o Git)
+# data/raw/
+
+# Ignora a pasta do próprio ambiente Conda, se ela estivesse dentro da pasta do projeto
+# (Geralmente o Conda fica fora da pasta do projeto, mas é bom prevenir)
+# venv/
+# env/
